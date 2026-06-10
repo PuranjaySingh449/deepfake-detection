@@ -1,0 +1,29 @@
+# Virtual environment
+deepfake_env/
+
+# External datasets / video data (large, not redistributable)
+SDFVD/
+deepfake_faces/
+
+# Cached features and extracted faces
+*.npy
+
+# Trained model weights (~87 MB) — regenerate with train.py
+*.pth
+
+# Informal result screenshots (results are in the .png figures + README)
+WhatsApp Image*.jpeg
+WhatsApp Image*.jpg
+Screenshot*.png
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Editor / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

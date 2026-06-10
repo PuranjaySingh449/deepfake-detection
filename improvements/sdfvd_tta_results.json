@@ -1,0 +1,30 @@
+{
+  "1_baseline_raw": {
+    "roc_auc": 0.7579,
+    "best_threshold": 0.15,
+    "balanced_acc": 0.6981,
+    "accuracy": 0.6981,
+    "f1_fake": 0.6279
+  },
+  "2_flip_tta": {
+    "roc_auc": 0.7544,
+    "best_threshold": 0.15,
+    "balanced_acc": 0.6792,
+    "accuracy": 0.6792,
+    "f1_fake": 0.6136
+  },
+  "3_face": {
+    "roc_auc": 0.8996,
+    "best_threshold": 0.6,
+    "balanced_acc": 0.8396,
+    "accuracy": 0.8396,
+    "f1_fake": 0.8283
+  },
+  "4_ensemble": {
+    "roc_auc": 0.874,
+    "best_threshold": 0.3,
+    "balanced_acc": 0.8396,
+    "accuracy": 0.8396,
+    "f1_fake": 0.8381
+  }
+}

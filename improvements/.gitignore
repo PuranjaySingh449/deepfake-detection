@@ -1,0 +1,8 @@
+# LoRA training artifacts (large / transient)
+lora_best.pt
+*.pt
+lora_train.log
+*.log
+*.err
+*.out
+__pycache__/

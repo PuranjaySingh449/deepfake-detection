@@ -1,0 +1,17 @@
+# Deepfake detection — CLIP-ViT + Temporal Transformer
+# Tested with Python 3.12, CUDA 11.8
+
+torch>=2.2
+torchvision>=0.17
+transformers>=4.40
+facenet-pytorch>=2.5
+opencv-python>=4.8
+pillow>=10.0
+scikit-learn>=1.3
+numpy>=1.26,<2.0
+pandas>=2.0
+matplotlib>=3.8
+tqdm>=4.66
+
+# Backbone fine-tuning (train_lora.py)
+peft>=0.11
